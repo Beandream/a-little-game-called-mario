@@ -1,6 +1,4 @@
-
 [gd_scene load_steps=40 format=2]
-
 
 [ext_resource path="res://audio/sfx/jump.wav" type="AudioStream" id=1]
 [ext_resource path="res://sprites/mario.png" type="Texture" id=2]
@@ -19,7 +17,6 @@
 [ext_resource path="res://scripts/mariocontroller/StarCollector.gd" type="Script" id=15]
 [ext_resource path="res://scripts/BoucyMoustache.gd" type="Script" id=16]
 [ext_resource path="res://scenes/CameraFCandidate.gd" type="Script" id=17]
-
 
 [sub_resource type="Curve" id=11]
 _data = [ Vector2( 0, 0 ), 0.0, 2.49311, 0, 0, Vector2( 1, 1 ), 0.329092, 0.0, 0, 0 ]

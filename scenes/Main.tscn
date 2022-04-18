@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://scripts/Audio.gd" type="Script" id=1]
 [ext_resource path="res://scripts/Main.gd" type="Script" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://shaders/CRT.gdshader" type="Shader" id=10]
 [ext_resource path="res://scenes/ui/TouchInputs.tscn" type="PackedScene" id=11]
 [ext_resource path="res://scripts/CRT.gd" type="Script" id=12]
+[ext_resource path="res://scenes/Multiplayer.tscn" type="PackedScene" id=13]
 
 [sub_resource type="ShaderMaterial" id=2]
 shader = ExtResource( 10 )
@@ -71,3 +72,5 @@ bus = "music"
 [node name="CRT" type="Node" parent="ViewportContainer/Main"]
 script = ExtResource( 12 )
 container_path = NodePath("../..")
+
+[node name="Multiplayer" parent="ViewportContainer/Main" instance=ExtResource( 13 )]
